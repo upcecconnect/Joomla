@@ -9,6 +9,19 @@
 - Ввімкнені OpenSSL та cURL
 
 ## Встановлення
+### Порядок встановлення
+
+1. Встановіть плагін **eCommerceConnect Admin Helper** (системний):
+- Перейдіть до розділу *Розширення → Встановлення* та завантажте файл `eccadmin-plugin.zip`.
+- Увімкніть **Система – eCommerceConnect Admin Helper** (PLG_SYSTEM_ECCADMIN).
+
+2. Встановіть плагін **eCommerceConnect Payment** (J2Store/J2Commerce):
+- Завантажте та встановіть ZIP-архів плагіна платежів.
+- Увімкніть його та налаштуйте параметри (ідентифікатор продавця, ідентифікатор термінала, URL-адреса шлюзу тощо).
+
+> Admin Helper надає покращений інтерфейс адміністратора та вбудовані підказки на екрані налаштувань платежів.
+
+
 1. В адмінці Joomla: **System → Install → Upload Package File** → завантажте ZIP плагіна.
 2. Увімкніть плагін у **System → Plugins** (група `j2store`).
 3. У **Components → J2Commerce → Payment Methods** знайдіть **eCommerceConnect** і відкрийте **Options**.
@@ -84,6 +97,19 @@ A payment gateway integration for **UPC e-Commerce Connect** (card payments) tha
 ---
 
 ## Installation
+
+### Installation order
+
+1. Install the **eCommerceConnect Admin Helper** plugin (system):
+  - Go to *Extensions → Install* and upload `eccadmin-plugin.zip`.
+  - Enable **System – eCommerceConnect Admin Helper** (PLG_SYSTEM_ECCADMIN).
+
+2. Install the **eCommerceConnect Payment** plugin (J2Store/J2Commerce):
+  - Upload and install the payment plugin ZIP.
+  - Enable it and configure settings (Merchant ID, Terminal ID, Gateway URL, etc.).
+
+> The Admin Helper provides enhanced admin UI and inline hints in the payment settings screen.
+
 
 1. In Joomla Admin: **System → Install → Upload Package File** and upload the ZIP.
 2. Enable the plugin in **System → Plugins** (group: `j2store`).
